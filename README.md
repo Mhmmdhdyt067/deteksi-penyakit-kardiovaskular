@@ -83,7 +83,43 @@ Berikut adalah tabel hasil perbandingan performa 6 model Machine Learning yang d
 ├── datasets/              # Dataset mentah (heart.csv)
 ├── notebooks/             # Jupyter Notebook (EDA & Pemodelan)
 ├── models/                # Models tersimpan
-├── venv/                  # Virtual environtment
 ├── README.md              # Dokumentasi proyek
 ├── app.py                 # File menjalankan sistem
 └── requirements.txt       # Daftar pustaka / dependensi Python
+```
+
+## 🚀 Cara Menjalankan Proyek
+Clone repositori ini:
+
+Bash
+git clone [https://github.com/Mhmmdhdyt067/deteksi-penyakit-kardiovaskular.git](https://github.com/Mhmmdhdyt067/deteksi-penyakit-kardiovaskular.git)
+cd deteksi-penyakit-kardiovaskular
+Buat dan aktifkan Virtual Environment (opsional):
+
+Bash
+python -m venv venv
+source venv/bin/activate  # Untuk Linux/Mac
+# atau
+venv\Scripts\activate     # Untuk Windows
+Install dependensi:
+
+Bash
+pip install -r requirements.txt
+
+Install Streamlit di Terminal:
+
+Bash
+pip install streamlit
+
+Jalankan perintah Streamlit berikut:
+
+Bash
+streamlit run app.py
+
+Buka Browser utama lalu akses aplikasi web "AI Heart Disease Risk Prediction System" di alamat :
+
+Bash
+http://localhost:8501
+
+📝 Lisensi
+Proyek ini dibuat untuk tujuan akademis di lingkungan Universitas Halu Oleo.
