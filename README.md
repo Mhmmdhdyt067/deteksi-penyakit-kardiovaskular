@@ -90,15 +90,15 @@ Berikut adalah tabel hasil perbandingan performa 6 model Machine Learning yang d
 
 ## 🚀 Cara Menjalankan Proyek
 
-###Clone repositori ini:
+### Clone repositori ini:
 
 ```bash
-git clone [https://github.com/Mhmmdhdyt067/deteksi-penyakit-kardiovaskular.git](https://github.com/Mhmmdhdyt067/deteksi-penyakit-kardiovaskular.git)
+git clone https://github.com/Mhmmdhdyt067/deteksi-penyakit-kardiovaskular.git
 cd deteksi-penyakit-kardiovaskular
 
 ```
 
-###Buat dan aktifkan Virtual Environment (opsional):
+### Buat dan aktifkan Virtual Environment (opsional):
 
 
 ```bash
@@ -109,25 +109,25 @@ venv\Scripts\activate     # Untuk Windows
 
 ```
 
-###Install dependensi:
+### Install dependensi:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-###Install Streamlit di Terminal:
+### Install Streamlit di Terminal:
 
 ```bash
 pip install streamlit
 ```
 
-###Jalankan perintah Streamlit berikut:
+### Jalankan perintah Streamlit berikut:
 
 ```bash
 streamlit run app.py
 ```
 
-###Buka Browser utama lalu akses aplikasi web "AI Heart Disease Risk Prediction System" di alamat :
+### Buka Browser utama lalu akses aplikasi web "AI Heart Disease Risk Prediction System" di alamat :
 
 ```bash
 http://localhost:8501
